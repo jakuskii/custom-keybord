@@ -1,0 +1,298 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://cdn.shopify.com/s/files/1/0284/9806/7555/products/KrakenBREDon60_250x250@2x.png?v=1589097952);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 20px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: rgb(255, 255, 255);
+	color: #333;
+}
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	img {
+		width: cover;
+	}
+	.nav-area {
+		float: none;
+		margin-top: 0;
+	}
+	.nav-area li a {
+		padding: 5px;
+		font-size: 11px;
+	}
+	.nav-area {
+		text-align: center;
+	}
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}
+.bg-modal60{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.7) ;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.modal-content60{
+	width: 900px;
+	height: 700px;
+	background-color:white ;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	position:relative ;
+}
+input{
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+
+}
+.close60{
+	position: absolute;
+	top:0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+
+.bg-modal75{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.7) ;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.modal-content75{
+	width: 1300px;
+	height: 700px;
+	background-color:white ;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	position:relative ;
+}
+input{
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+
+}
+.close75{
+	position: absolute;
+	top:0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+
+.bg-modal80{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.7) ;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.modal-content80{
+	width: 1300px;
+	height: 700px;
+	background-color:white ;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	position:relative ;
+}
+input{
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+
+}
+.close80{
+	position: absolute;
+	top:0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.bg-modal100{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0, 0, 0.7) ;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.modal-content100{
+	width: 1300px;
+	height: 700px;
+	background-color:white ;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	position:relative ;
+}
+input{
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+
+}
+.close100{
+	position: absolute;
+	top:0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+
+.product-list60{
+	background-color: white;
+	padding: 3em;
+}
+.product-list60 .card60v1{
+	background-color: white;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 0px 10px 5px #b2bec3;
+	text-align: center;
+	width: 200px;
+
+}
+.card60v1 .title60v1{
+	font-size: 18px;
+	font-weight: bold;
+}
+.card60v1 img{
+	max-width: 100px;
+}
+
+
+
+.product-list60{
+	background-color: white;
+	padding: 3em;
+}
+.product-list60 .card60v2{
+	background-color: white;
+	border-radius: 10px;
+	padding: 1em;
+	box-shadow: 0px 10px 5px #b2bec3;
+	text-align: center;
+	width: 200px;
+	margin-left: 300px;
+ 	margin-top: 1px;
+	 position: absolute;
+}
+.card60v2 .title60v2{
+	font-size: 18px;
+	font-weight: bold;
+}
+.card60v2 img{
+	max-width: 100px;
+}
