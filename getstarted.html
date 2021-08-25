@@ -15,10 +15,8 @@
         </div>
 <ul class="nav-area">
 <li><a href="index.html">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Terms of Services</a></li>
-<li><a href="#">Contact</a></li>
+<li><a href="legal.html">Terms of Services</a></li>
+<li><a href="contact.html">Contact</a></li>
 </ul>
 </div>
 <div class="welcome-text">
@@ -32,27 +30,63 @@ Chose the size of your <span>keyboards</span></h1>
 </header>
 <div class="bg-modal60">
     <div class="modal-content60">
-        <div class="close60">+</div>
-        <section class = "product-list60">
+        <div class="close60" onclick="close()">+</div>
+        <section class = "product-list60" id="boxall">
             <h1>Products</h1>
             <div class="container">
-                <h1>Light mode/ dark mode</h1>
-            </div>
-
-            <div class="toogle-container">
-                <input type="Checkbox" id = "switch" name = "theme" /><label for="switch">Toggle</label>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore dolore aut eius, doloribus laudantium dicta. Quos ea totam nisi alias culpa libero maxime, aliquid nobis in sit? Quae, dolor dolore.</p>
             <div class="card60v1">
                 <div class="title60v1">Product 1</div>
                 <div class="image60v1"><img src="Download.png" alt=""></div>
+                <div class="image-overlay">
+                    <div class="image_title">keyboards</div>
+                    <p class = "image_description">Keyboards</p>
+                </div>
                 <div class="text60v1">Product Description</div>
             </div>
-            <div class="card60v2">
-                <div class="title60v2">Product 1</div>
+             <div class="card60v2">
+                <div class="title60v2">Product 2</div>
                 <div class="image60v2"><img src="Download.png" alt=""></div>
+                <div class="image-overlay2">
+                    <div class="image_title2">keyboards</div>
+                    <p class = "image_description2">Keyboards</p>
+                </div>
                 <div class="text60v2">Product Description</div>
+             </div>
+             <div class="card60v3">
+                <div class="title60v3">Product 3</div>
+                <div class="image60v3"><img src="Download.png" alt=""></div>
+                <div class="image-overlay3">
+                    <div class="image_title3">keyboards</div>
+                    <p class = "image_description3">Keyboards</p>
+                </div>
+                <div class="text60v3">Product Description</div>
             </div>
+            <div class="card60v4">
+                <div class="title60v4">Product 4</div>
+                <div class="image60v4"><img src="Download.png" alt=""></div>
+                <div class="image-overlay4">
+                    <div class="image_title4">keyboards</div>
+                    <p class = "image_description4">Keyboards</p>
+                </div>
+                <div class="text60v4">Product Description</div>
+            </div>
+            <div class="card60v5" onclick = "base5()">
+                <div class="title60v5">Product 5</div>
+                <div class="image60v5"><img src="Download.png" alt="KeyboardN5"></div>
+                <div class="image-overlay5">
+                    <div class="image_title5">keyboards</div>
+                    <p class = "image_description5">Keyboards</p>
+                </div>
+                <div class="text60v5">Product Description</div>
+            </div>
+        </section>
+        <section id = "product5">
+
+        <img src="testimg.jpeg" alt="" class="image-product5v1">
+        <img src="testimg.jpeg" alt="" class="image-product5v2">
+        <img src="testimg.jpeg" alt="" class="image-product5v3">
+        <img src="testimg.jpeg" alt="" class="image-product5v4">
+
 
         </section>
     </div>
